@@ -4,24 +4,24 @@ Assignment Overview
 This assignment analyzes how model complexity affects training and testing error using Linear Regression and Polynomial Regression.   
 The objective is to observe the bias–variance tradeoff by increasing the polynomial degree and comparing model performance.   
 
-Source code: 
+# Source code: 
 ass_udgLrg&polyreg
 
-Dataset
+# Dataset
 
 The dataset contains two variables:
 Years of Experience
 Salary
 The goal is to predict salary based on years of experience.
 
-Example values:
+# Example values:
 Experience	Salary
 0.0	30200
 3.0	41800
 7.5	51600
 12.0	49400   
 
-Methodology
+# Methodology
 1. Data Preparation
 
 Convert the dataset into NumPy arrays
@@ -55,7 +55,7 @@ MSE measures the average squared difference between predicted and actual values.
 
 Lower MSE indicates better model performance.
 
-Results
+# Results
 
 Observations from the experiment:
 Training error decreases as polynomial degree increases because the model becomes more flexible.
@@ -71,12 +71,12 @@ Model memorizes training data
 Overfitting Point
 The model begins overfitting at degree 12, where testing error increases significantly.   
 
-Best Model
+# Best Model
 
 The best performing model is:
 Polynomial Degree = 10
 
-Reason:
+# Reason:
 Minimum testing error  
 Balanced bias and variance   
 
