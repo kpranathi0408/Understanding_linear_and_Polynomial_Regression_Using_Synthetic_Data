@@ -28,7 +28,8 @@ Convert the dataset into NumPy arrays
 Split data into training and testing sets (80% training, 20% testing)
 
 Example:
-train_test_split(X, y, test_size=0.2)
+train_test_split(X, y, test_size=0.2)  
+
 2. Linear Regression
 A linear regression model is trained as the baseline model.
 
