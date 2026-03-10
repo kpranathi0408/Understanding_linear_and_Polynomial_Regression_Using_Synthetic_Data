@@ -80,7 +80,7 @@ Polynomial Degree = 10
 Minimum testing error  
 Balanced bias and variance   
 
-Output 
+# Output   
 The program generates two plots:  
 Regression curves for different polynomial degrees  
 Training error vs testing error  
