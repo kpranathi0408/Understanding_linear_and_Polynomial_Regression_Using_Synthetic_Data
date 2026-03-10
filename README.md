@@ -1,4 +1,4 @@
-Bias–Variance Tradeoff Analysis using Polynomial Regression
+# *Bias–Variance Tradeoff Analysis using Polynomial Regression*
 Assignment Overview
 
 This assignment analyzes how model complexity affects training and testing error using Linear Regression and Polynomial Regression.   
